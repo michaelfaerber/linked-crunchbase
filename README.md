@@ -61,11 +61,11 @@ The used files are described in the following:
   [] http:mthd httpm:GET ;
      http:requestURI ?next ;
 	http:fieldName "Authorization" ;
-	http:fieldValue "Basic MmJhM2Y1YmU2kTahaDUxhhVhNbJjZDNiMmQ3OPg2NrT6" . 
+	http:fieldValue "Basic Y3J1bmNoYmFzZSBpcyB0aGUga2V5" . 
 } .
 ```
 
-"Basic MmJhM2Y1YmU2kTahaDUxhhVhNbJjZDNiMmQ3OPg2NrT6" is thereby the Base64 encoded version of the user's Crunchbase API key.
+"Basic Y3J1bmNoYmFzZSBpcyB0aGUga2V5" is thereby the Base64 encoded version of the user's Crunchbase API key.
 This N3 file is kept general and can be used for crawling also the other entity types.
 
 - **output-of-java-program.nt** is the RDF file that we created in the step above and which serves now as input file. It includes the api_path's of all organizations.
@@ -115,7 +115,7 @@ _get-news-summary-using-keyseturl.n3_ can be specified as follows:
         http:requestURI 
 <http://linked-crunchbase.org/api/news?items_per_page=250> ;
 	http:fieldName "Authorization" ;
-	http:fieldValue "Basic MkJhM2YddmU2YTFhND12VhNbJjZ3diM" . 
+	http:fieldValue "Basic Y3J1bmNoYmFzZSBpcyB0aGUga2V5" . 
 }
 
 {
@@ -124,10 +124,10 @@ _get-news-summary-using-keyseturl.n3_ can be specified as follows:
   [] http:mthd httpm:GET ;
      http:requestURI ?next ;
 	http:fieldName "Authorization" ;
-	http:fieldValue "Basic MkJhM2YddmU2YTFhND12VhNbJjZ3diM" . 
+	http:fieldValue "Basic Y3J1bmNoYmFzZSBpcyB0aGUga2V5" . 
 } .
 ```
-"Basic MkJhM2YddmU2YTFhND12VhNbJjZ3diM" is again the Base64 encoding of the user's API key for Crunchbase. Note that this second method can be used for crawling the summary of other entity types as well. We did not do that so far, since Crunchbase' API  functionality for that was added at a later stage.
+"Basic Y3J1bmNoYmFzZSBpcyB0aGUga2V5" is again the Base64 encoding of the user's API key for Crunchbase. Note that this second method can be used for crawling the summary of other entity types as well. We did not do that so far, since Crunchbase' API  functionality for that was added at a later stage.
 
 ## Contributors
 * Michael Färber, michael.faerber@cs.uni-freiburg.de, University of Freiburg
