@@ -23,7 +23,9 @@ In the following, we explain these steps in more detail. Generally, we first cra
 ### Crawling Organizations etc.
 #### Step 1: Downloading CSV Files
 Firstly, the CSV node keys files need to be downloaded from the Crunchbase website (https://data.crunchbase.com/docs/node-export). The direct download link is as follows:
+
 https://api.crunchbase.com/v3.1/node_keys/node_keys.tar.gz?user_key={user_key}
+
 _user_key_ is thereby the Crunchbase API key of the user. In the downloaded compressed file, there is a CSV file for (almost) each entity type. As we exemplarily crawl organizations, we pick the file _organizations.csv_.
 This CSV file includes a _NAME_ and _PERMALINK_ of all existing companies in Crunchbase. 
 
