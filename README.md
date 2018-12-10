@@ -1,8 +1,8 @@
 # linked-crunchbase
 
 This repository provides
-* the code for a Linked Data API for [Crunchbase](https://data.crunchbase.com/).
-* instructions how to obtain a Crunchbase RDF data set (i.e, knowledge graph) by crawling this Linked Data API.
+* the code for a Linked Data API for [Crunchbase](https://data.crunchbase.com/), see the Java code under [CrunchbaseWrapper].
+* instructions how to obtain a Crunchbase RDF data set (i.e, knowledge graph) by crawling this Linked Data API, see the following.
 
 
 ## Crunchbase Linked Data API Code
