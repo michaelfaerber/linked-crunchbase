@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Address">
+    <ns0:equivalentClass xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/PostalAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#also_known_as">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/alternateName"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#author">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/author"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#bio">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/description"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#blog_url">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://xmlns.com/foaf/0.1/weblog"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#categories">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/category"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#city">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#city"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Company">
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://purl.org/goodrelations/v1#BusinessEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Company">
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#country_code">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#country"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#country">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/addressCountry"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#contact_email">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/email"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#phone_number">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/telephone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#gender">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/gender"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#current_team">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/employee"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#died_on">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/deathDate"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#FinancialOrganization">
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://purl.org/goodrelations/v1#BusinessEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#FinancialOrganization">
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#first_name">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://xmlns.com/foaf/0.1/firstName"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#first_name">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/givenName"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#founders">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/founder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#full_permalink">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#funding">
+    <ns0:inverseOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#funded"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#homepage_url">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://xmlns.com/foaf/0.1/homepage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#homepage_url">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/url"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab">
+    <ns0:comment xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#">Vocabulary Description for CrunchBase (http://crunchbase.com/).</ns0:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#image">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://xmlns.com/foaf/0.1/depiction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Image">
+    <ns0:equivalentClass xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/ImageObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#images">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/image"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#investor">
+    <ns0:inverseOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#investment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#last_name">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://xmlns.com/foaf/0.1/surname"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#last_name">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/familyName"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#latitude">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#latitude">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/latitude"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#longitude">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#longitude">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/longitude"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#name">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#name">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#News">
+    <ns0:equivalentClass xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/NewsArticle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#office">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#address"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#office">
+    <ns0:inverseOf xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#officeOf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Organization">
+    <ns0:equivalentClass xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/Organization"/>
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#overview">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/01/rdf-schema#comment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#owned_by">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/parentOrganization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Person">
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Person">
+    <ns0:equivalentClass xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/Person"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#posted_on">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/datePublished"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#primary_affiliation">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/affiliation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#primary_image">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/logo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#primary_location">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/homeLocation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#profile_image_url">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/image"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#raised_amount">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#value"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#region">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/addressRegion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#ServiceProvider">
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://purl.org/goodrelations/v1#BusinessEntity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#ServiceProvider">
+    <ns0:subClassOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#short_description">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/description"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#state_code">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#stateOrProvince"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#stock_symbol">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/tickerSymbol"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#street_1">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/streetAddress"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#sub_organizations">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/subOrganization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#tag">
+    <ns0:subPropertyOf xmlns:ns0="http://www.w3.org/2000/01/rdf-schema#" rdf:resource="http://purl.org/dc/terms/subject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#title">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/headline"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#url">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/url"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Video">
+    <ns0:equivalentClass xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/VideoObject"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#websites">
+    <ns0:equivalentProperty xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/url"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Website">
+    <ns0:equivalentClass xmlns:ns0="http://www.w3.org/2002/07/owl#" rdf:resource="http://schema.org/WebSite"/>
+  </rdf:Description>
+</rdf:RDF>

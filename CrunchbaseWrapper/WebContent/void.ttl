@@ -1,0 +1,27 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix : <#> .
+
+:CrunchbaseWrapper 
+	rdf:type void:Dataset ;
+	foaf:homepage <http://linked-crunchbase.org/> ;
+	dcterms:title "Linked CrunchBase" ;
+	dcterms:contributor <http://dbpedia.org/resource/University_of_Freiburg> ;
+	dcterms:source <http://dbpedia.org/resource/CrunchBase> ;
+	dcterms:modified "2018-11-11"^^xsd:date ; 
+	dcterms:publisher :Michael_Faerber ;
+	dcterms:license <http://creativecommons.org/licenses/by-nc/4.0/> ;
+	dcterms:subject <http://dbpedia.org/resource/Computer_science> ;  
+	void:feature <http://www.w3.org/ns/formats/N-Triples> ;
+	void:triples 346695771 ;
+	void:entities 14583535 ;
+	void:linkPredicate owl:sameAs .
+		 
+:Michael_Faerber a 
+	foaf:Person ;
+	rdfs:label "Michael Faerber" ;
+	foaf:mbox <mailto:michael.faerber@cs.uni-freiburg.de> .

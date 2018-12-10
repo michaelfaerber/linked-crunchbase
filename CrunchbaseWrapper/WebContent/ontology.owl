@@ -1,0 +1,1499 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontologycentral.com/2010/05/cb/vocab#"
+     xml:base="http://ontologycentral.com/2010/05/cb/vocab"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://ontologycentral.com/2010/05/cb/vocab#">
+        <owl:versionIRI rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#/1.0.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#acquired_by -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#acquired_by">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#acquiree -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#acquiree">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#acquirer -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#acquirer">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#acquisitions -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#acquisitions">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#advisory_roles -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#advisory_roles">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#board_members_and_advisors -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#board_members_and_advisors">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#categories -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#categories">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Category"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#current_team -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#current_team">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+    </owl:ObjectProperty>    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#degrees -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#degrees">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Degree"/>
+    </owl:ObjectProperty>
+    
+	
+	<!-- http://ontologycentral.com/2010/05/cb/vocab#featured_team -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#featured_team">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+    </owl:ObjectProperty>
+	
+	
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#founded_companies -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#founded_companies">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#founders -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#founders">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#funded_company -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#funded_company">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#funded_organization -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#funded_organization">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#funding_round -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#funding_round">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Investment"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#funding_rounds -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#funding_rounds">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#funds -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#funds">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#headquarters -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#headquarters">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#images -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#images">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Product"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Image"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#invested_in -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#invested_in">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Investment"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#investments -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#investments">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Investment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#investor -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#investor">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#investors -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#investors">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Investment"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#ipo -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#ipo">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#jobs -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#jobs">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+    </owl:ObjectProperty> 
+	
+	
+	<!-- http://ontologycentral.com/2010/05/cb/vocab#mention_api_urls -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#mention_api_urls">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#News"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#news -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#news">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#News"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#offices -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#offices">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#organization -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#organization">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#owned_by -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#owned_by">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#parent_locations -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#parent_locations">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Location"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#past_team -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#past_team">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#person -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#person">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Degree"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#primary_affiliation -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#primary_affiliation">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#primary_image -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#primary_image">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Image"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#primary_location -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#primary_location">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Location"/>
+    </owl:ObjectProperty>
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#school -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#school">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Degree"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#sub_organizations -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#sub_organizations">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#venture_firm -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#venture_firm">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+    </owl:ObjectProperty>
+    
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#websites -->
+
+    <owl:ObjectProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#websites">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Website"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#acquisition_status -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#acquisition_status">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#acquisition_type -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#acquisition_type">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#also_known_as -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#also_known_as">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#announced_on -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#announced_on">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#announced_on_trust_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#announced_on_trust_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#api_path -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#api_path">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#asset_path -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#asset_path">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#author -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#author">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#News"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#bio -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#bio">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#born_on -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#born_on">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#born_on_trust_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#born_on_trust_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#city -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#city">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#city_web_path -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#city_web_path">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#closed_on -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#closed_on">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#closed_on_trust_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#closed_on_trust_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#completed_on -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#completed_on">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Degree"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#completed_on_trust_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#completed_on_trust_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Degree"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+	
+	<!-- http://ontologycentral.com/2010/05/cb/vocab#contact_email -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#contact_email">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#content_type -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#content_type">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#country -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#country">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#country_web_path -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#country_web_path">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#created_at -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#created_at">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Category"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Degree"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Image"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Investment"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Location"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#News"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Video"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Website"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#degree_subject -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#degree_subject">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Degree"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#degree_type_name -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#degree_type_name">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Degree"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#description -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#description">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#died_on -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#died_on">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#died_on_trust_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#died_on_trust_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#disposition_of_acquired -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#disposition_of_acquired">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#ended_on -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#ended_on">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#ended_on_trust_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#ended_on_trust_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#filesize -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#filesize">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#first_name -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#first_name">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#founded_on -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#founded_on">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#founded_on_trust_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#founded_on_trust_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#funding_type -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#funding_type">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+	
+	
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#gender -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#gender">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+	
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#height -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#height">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#homepage_url -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#homepage_url">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#is_closed -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#is_closed">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#last_name -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#last_name">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#latitude -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#latitude">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+        
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#location_type -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#location_type">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#longitude -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#longitude">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#money_invested -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#money_invested">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Investment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#money_invested_currency_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#money_invested_currency_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Investment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#money_invested_usd -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#money_invested_usd">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Investment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#money_raised -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#money_raised">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#money_raised_currency_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#money_raised_currency_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#money_raised_usd -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#money_raised_usd">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#name -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#name">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Category"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Location"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#num_employees_max -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#num_employees_max">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#num_employees_min -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#num_employees_min">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#number_of_investments -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#number_of_investments">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#opening_share_price -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#opening_share_price">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#opening_share_price_currency_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#opening_share_price_currency_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#opening_share_price_usd -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#opening_share_price_usd">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#opening_valuation -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#opening_valuation">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#opening_valuation_currency_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#opening_valuation_currency_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#opening_valuation_usd -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#opening_valuation_usd">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+           
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#parent_location_uuid -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#parent_location_uuid">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#payment_type -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#payment_type">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#permalink -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#permalink">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+	
+	 <!-- http://ontologycentral.com/2010/05/cb/vocab#phone_number -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#phone_number">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+	
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#posted_on -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#posted_on">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#News"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#price -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#price">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#price_currency_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#price_currency_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#price_usd -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#price_usd">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#primary_role -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#primary_role">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#profile_image_url -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#profile_image_url">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#region -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#region">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#region_web_path -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#region_web_path">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#role_company -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#role_company">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#role_group -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#role_group">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#role_investor -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#role_investor">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#role_school -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#role_school">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#series -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#series">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#series_qualifier -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#series_qualifier">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#service_name -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#service_name">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Video"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#shares_sold -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#shares_sold">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#short_description -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#short_description">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#started_on -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#started_on">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Degree"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#started_on_trust_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#started_on_trust_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Degree"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#stock_exchange -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#stock_exchange">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#stock_exchange_symbol -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#stock_exchange_symbol">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#stock_symbol -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#stock_symbol">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#street_1 -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#street_1">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#street_2 -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#street_2">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#target_money_raised -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#target_money_raised">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#target_money_raised_currency_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#target_money_raised_currency_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#target_money_raised_usd -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#target_money_raised_usd">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#title -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#title">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#News"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Video"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#total_funding_usd -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#total_funding_usd">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#updated_at -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#updated_at">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Category"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Degree"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Image"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Investment"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Location"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#News"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Video"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Website"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#url -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#url">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#News"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Video"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Website"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#uuid -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#uuid">
+<rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Category"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Degree"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Image"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Investment"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Location"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#News"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Video"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Website"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#web_path -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#web_path">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Category"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Location"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#website_type -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#website_type">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Website"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#went_public_on -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#went_public_on">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#went_public_on_trust_code -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#went_public_on_trust_code">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#width -->
+
+    <owl:DatatypeProperty rdf:about="http://ontologycentral.com/2010/05/cb/vocab#width">
+        <rdfs:domain rdf:resource="http://ontologycentral.com/2010/05/cb/vocab#Image"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#Acquisition -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Acquisition"/>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#Address -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Address"/>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#Category -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Category"/>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#Degree -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Degree"/>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#Fund -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Fund"/>
+    
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#FundingRound -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#FundingRound"/>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#Image -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Image"/>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#Investment -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Investment"/>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#Ipo -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Ipo"/>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#Job -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Job"/>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#Location -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Location"/>
+    
+	
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#News -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#News"/>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#Organization -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Organization"/>
+    
+
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#Person -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Person"/>
+    
+
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#Video -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#StockExchange"/>
+    
+  
+    <!-- http://ontologycentral.com/2010/05/cb/vocab#Website -->
+
+    <owl:Class rdf:about="http://ontologycentral.com/2010/05/cb/vocab#Website"/>
+</rdf:RDF>
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+
