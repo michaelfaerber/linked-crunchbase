@@ -5,62 +5,54 @@
 
   <body linkifying="true" data-ember-extension="1">
     <h1>Welcome to Linked CrunchBase!</h1>
-	
+
     <p>
       A Linked Data API wrapping the REST API of <a href="http://www.crunchbase.com/">CrunchBase</a>, a database about technology companies and startups.
     </p>
     <p>
-      Currently, this service maps every request to Crunchbase. Some mappings of Organizations to DBpedia are available. 
-      The mapping can be found <a href="./allMappings.nt">here</a>. 
+      This service maps every request to Crunchbase. There also exist <a href="./organization-mappings.nt">mappings of organizations</a> and <a href="./people-mappings.nt">mappings of people</a> in Crunchbase to <a href="http://dbpedia.org">DBpedia</a>.
     </p>
     <h2>Authentication</h2>
     <p>
-      To use the service, you have to auth to Crunchbase. 
+      To use our Linked Data API for Crunchbase, you have to authenticate to Crunchbase.
       To do so, enter your api key <a href="./auth">here</a> (put the key in the username field and keep the password field empty). 
-      If you are not authenticated, we redirect the request to a SPARQL-Server and return some of our crawled data. 
+      If you are not authenticated, only triples concerning the mapping to DBpedia are returned due to the licensing model of Crunchbase.
     </p>
     
-    <h2>Online Examples</h2>
+    <h2>Example Linked Data API Usage</h2>
     <ul>
       <li><a href="./api/organizations/facebook#id">/api/company/facebook#id</a></li>
       <li><a href="./api/people/mark-zuckerberg#id">/api/people/mark-zuckerberg#id</a></li>
     </ul>
-    <h2>Step by Step Example</h2>
-    First we get the JSON from Cruchbase. We transform it into JSON-LD and finally convert that into RDF.
-    Example files (from 2016 when all CrunchBase data was licensed partly under Creative Commons Attribution-NonCommercial License 4.0 (CC-BY-NC) and partly under Creative Commons Attribution License 4.0 (CC-BY)):<ol>
-      <li><a href="./html/facebook.json">JSON</a></li>
-      <li><a href="./html/facebook.jsonld">JSON-LD</a></li>
-      <li><a href="./html/facebook.nt">RDF/N-Triples</a></li>
-     </ol>
+With curl:
+<p><code>curl -v -H "Accept:text/turtle" --header "Authorization: Basic {Base64-encoded key}" http://linked-crunchbase.org/api/organizations/facebook#id</code></p>
+    <h2>Data Formats</h2>
+    Our Linked Data API supports JSON, JSON-LD, and RDF/N-Triples.<br />
+    <h2>Crawling RDF Data with the Linked Data API</h2>
+    A detailed description of how to crawl an RDF data set based on our Linked Data API is given on <a href="https://github.com/michaelfaerber/linked-crunchbase">GitHub</a>.
+Due to licensing issues, we cannot provide a current RDF data set. An old data set from 2015 is provided online <a href="http://km.aifb.kit.edu/services/crunchbase/">here</a> and licensed partly under Creative Commons Attribution-NonCommercial License 4.0 (CC-BY-NC) and partly under Creative Commons Attribution License 4.0 (CC-BY).
 
     <h2>Metadata</h2>
     <ul>
-    	<li><a href="http://lov.okfn.org/vocommons/voaf/v2.3/">VOAF</a>: <a href="./voaf.ttl">voaf.ttl</a></li>
-    	<li><a href="https://www.w3.org/TR/void/">VoID</a>: <a href="./void.ttl">void.ttl</a></li>
-    	<li>Our <a href="./ontology.owl">Ontology</a> with <a href="./vocab.rdf">links</a> to <a href="http://schema.org/">schema.org</a>.
+        <li><a href="http://lov.okfn.org/vocommons/voaf/v2.3/">VOAF</a>: <a href="./voaf.ttl">voaf.ttl</a></li>
+        <li><a href="https://www.w3.org/TR/void/">VoID</a>: <a href="./void.ttl">void.ttl</a></li>
+        <li>Our <a href="./ontology.owl">ontology</a> with <a href="./vocab.rdf">links</a> to <a href="http://schema.org/">schema.org</a>.
     </ul>
-    
 
     <p>
-      Please take note of the <a href="https://info.crunchbase.com/docs/terms-of-service/">CrunchBase Terms of Service</a>, the content is provided under the Commons Attribution-NonCommercial License <a href=http://creativecommons.org/licenses/by-nc/4.0/">[CC-BY-NC]</a>
+      Please take note of the <a href="https://info.crunchbase.com/docs/terms-of-service/">CrunchBase Terms of Service</a> concerning the licensing of Crunchbase data.
     </p>
 
-    <p> The source-code is available at <a href="https://github.com/michaelfaerber/Linked-CrunchBase">Github</a>.</p>
+    <p> The source-code is available on <a href="https://github.com/michaelfaerber/linked-crunchbase">Github</a>.</p>
      
-     <p>
-      In the following are some example queries on the Crunchbase dump.
-    </p>
     <h2>Changelog</h2>
     
     <dl>
       <dt>2018-12-10</dt>
-      <dd>release of version 2</dd>
-      <dt>2016-02-06</dt>
       <dd>initial release</dd>
     </dl>
 
     <hr>
-    <a href="http://ontologycentral.com/">OntologyCentral</a>, 2016-2018.
+    <a href="http://ontologycentral.com/">OntologyCentral</a>, 2018.
   
-
 </body></html>
