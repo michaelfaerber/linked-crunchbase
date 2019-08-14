@@ -6,7 +6,7 @@ This repository provides
 
 
 ## Instructions for Crawling CrunchBase
-Prerequisites: You need to have an API key from Crunchbase (either for research purposes or for commercial interests). New API keys can be requested [here](https://data.crunchbase.com/docs/license-agreement).
+__Prerequisites__: You need to have an API key from Crunchbase (either for research purposes or for commercial interests). New API keys can be requested [here](https://data.crunchbase.com/docs/license-agreement).
 
 ### Overview
 The following steps need to be performed:
@@ -130,11 +130,15 @@ _get-news-summary-using-keyseturl.n3_ can be specified as follows:
 "Basic Y3J1bmNoYmFzZSBpcyB0aGUga2V5" is again the Base64 encoding of the user's API key for Crunchbase. Note that this second method can be used for crawling the summary of other entity types as well. We did not do that so far, since Crunchbase' API  functionality for that was added at a later stage.
 
 ## Contributors
-* Michael Färber, michael.faerber@cs.uni-freiburg.de, University of Freiburg
+* Michael Färber, michael.faerber@kit.edu, Karlsruhe Institute of Technoogy (previously: University of Freiburg)
 * Ali Aghaee, University of Freiburg
 * Andreas Harth, Friedrich-Alexander-Universität Erlangen-Nürnberg
 
 ## Contact
-michael.faerber@cs.uni-freiburg.de
+michael.faerber@kit.edu
 
-_Last change: Dec 2018_
+## Further Information and References
+1. Michael Färber: [Linked Crunchbase: A Linked Data API and RDF Data Set About Innovative Companies](https://arxiv.org/pdf/1907.08671.pdf), arXiv preprint arXiv:1907.08671, 2019.
+2. Michael Färber, Carsten Menne, Andreas Harth: [A Linked Data Wrapper for CrunchBase](http://semantic-web-journal.net/system/files/swj1493.pdf), Semantic Web Journal 9(4), IOS Press, 2018, pp. 505–5015.
+
+_Last change: Aug 2019_
